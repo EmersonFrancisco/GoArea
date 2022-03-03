@@ -17,8 +17,8 @@ func Rect(base, altura float64) float64 {
 }
 
 // Quad é responsável por calcula a área de um quadrado
-func Quad(base, altura float64) float64 {
-	return base * altura
+func Quad(base float64) float64 {
+	return math.Pow(base,2)
 }
 
 // TrianguloEq é responsável por calcular a área de um triangulo Equilátero (Faces iguais)
